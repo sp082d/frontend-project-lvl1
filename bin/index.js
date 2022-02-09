@@ -18,7 +18,8 @@ const RunGame = (getGame, getGameData, gameDescription) => {
   console.log(gameDescription);
 
   for (let i = 0; i < END_GAMES_CORRECT_ANSWERS_COUNT; i += 1) {
-    const [question, answer] = getGameData;
+    const gameData = getGameData();
+    const [question, answer] = getGame(gameData);
 
     console.log(`${BRAIN_GAMES_QUESTION}, ${question}`);
 
