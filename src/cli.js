@@ -12,7 +12,7 @@ const greeting = () => {
 
   const userName = readlineSync.question(`${QUESTION_ABOUT_USER_NAME} `, { defaultInput: DEFAULT_USER_NAME });
 
-  console.log(`${USERS_GREETING}, ${userName}!`);
+  console.log(`${USERS_GREETING} ${userName}!`);
 
   return userName;
 };
