@@ -24,7 +24,7 @@ const RunGame = (getGame, getGameData, gameDescription) => {
     console.log(`${BRAIN_GAMES_QUESTION} ${question}`);
 
     const expectedAnswer = String(answer);
-    const userAnswer = readlineSync.question(`${BRAIN_GAMES_QUESTION_TO_USER}`);
+    const userAnswer = readlineSync.question(`${BRAIN_GAMES_QUESTION_TO_USER} `);
 
     if (userAnswer === expectedAnswer) {
       console.log(`${BRAIN_GAMES_TRUE_MESSAGE}`);
