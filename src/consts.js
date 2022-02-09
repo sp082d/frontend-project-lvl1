@@ -4,7 +4,7 @@ const USERS_GREETING = 'Hello,';
 
 const DEFAULT_USER_NAME = 'John';
 
-const QUESTION_ABOUT_USER_NAME = 'May I have you name?';
+const QUESTION_ABOUT_USER_NAME = 'May I have your name?';
 
 const END_GAMES_CORRECT_ANSWERS_COUNT = 3;
 
