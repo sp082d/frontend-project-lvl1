@@ -22,13 +22,10 @@ $ npm install
 $ npm link
 ```
 
+`npm link` нужно запускать в корневой директории проекта
+
 ### Запуск игор
 Шаблон для запуска: `brain-`games/even/prime/gcd/calc/progression 
 ```
 $ brain-games
-```
-
-### Удаление игор
-```
-$ npm unlink
 ```
