@@ -21,7 +21,7 @@ const RunGame = (getGame, getGameData, gameDescription) => {
     const gameData = getGameData();
     const [question, answer] = getGame(gameData);
 
-    console.log(`${BRAIN_GAMES_QUESTION}, ${question}`);
+    console.log(`${BRAIN_GAMES_QUESTION} ${question}`);
 
     const expectedAnswer = String(answer);
     const userAnswer = readlineSync.question(`${BRAIN_GAMES_QUESTION_TO_USER}`);
