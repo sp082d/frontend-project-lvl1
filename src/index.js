@@ -8,9 +8,9 @@ import {
   BRAIN_GAMES_FALSE_MESSAGE,
   BRAIN_GAMES_FALSE_END_MESSAGE,
   BRAIN_GAMES_TRUE_END_MESSAGE,
-} from '../src/consts.js';
+} from './consts.js';
 
-import greeting from '../src/cli.js';
+import greeting from './cli.js';
 
 const RunGame = (getGame, getGameData, gameDescription) => {
   const userName = greeting();

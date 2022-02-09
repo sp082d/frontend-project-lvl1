@@ -51,7 +51,7 @@ const isPrime = (number) => {
   return number > 1;
 };
 
-export default {
+export {
   getRandomIntNumber,
   getRandomItemFromArray,
   isEven,
